@@ -1,6 +1,7 @@
 ---
 layout: default
 title: A/B Test with Heterogenous Continuous-Treatment Continuous-Effect
+parent: Causal Inference
 nav_order: 1
 ---
 
