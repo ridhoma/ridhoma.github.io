@@ -5,6 +5,6 @@ layout: default
 This is the homepage.
 
 Table of content:
-{% for post in site.posts %}
+{% for post in site._posts %}
   - [{{ post.title }}]({{ post.url }})
 {% endfor %}
