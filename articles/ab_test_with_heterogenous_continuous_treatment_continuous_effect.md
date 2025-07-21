@@ -1,6 +1,7 @@
 ---
 layout: default
 title: A/B Test with Heterogenous Continuous-Treatment Continuous-Effect
+nav_order: 1
 ---
 
 # A/B Test with Heterogenous Continuous-Treatment Continuous-Effect
