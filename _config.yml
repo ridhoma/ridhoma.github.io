@@ -1,5 +1,5 @@
 title: My personal website
 description: A collection of my Markdown articles
-theme: minima
+theme: just-the-docs
 baseurl: ""  
 url: "https://ridhoma.github.io"
