@@ -1,0 +1,5 @@
+title: My personal website
+description: A collection of my Markdown articles
+theme: minima
+baseurl: ""  
+url: "https://ridhoma.github.io"
