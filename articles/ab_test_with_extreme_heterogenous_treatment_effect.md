@@ -1,7 +1,8 @@
 ---
 layout: default
-title: A/B Test with Extreme Heterogenous Treatment Effect
-parent: Causal Inference
+title: Extreme Heterogenous Treatment Effect
+use_math: true
+parent: Non-Standard A/B Tests
 nav_order: 1
 ---
 

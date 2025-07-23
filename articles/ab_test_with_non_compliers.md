@@ -1,7 +1,8 @@
 ---
 layout: default
-title: A/B Test with Non-Compliers Phenomena
-parent: Causal Inference
+title: Non-Compliers Causing Post-Treatment Bias
+use_math: true
+parent: Non-Standard A/B Tests
 nav_order: 1
 ---
 

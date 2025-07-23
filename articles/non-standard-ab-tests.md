@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Causal Inference
+title: Non-Standard A/B Tests
 nav_order: 1
 has_children: True
 ---
