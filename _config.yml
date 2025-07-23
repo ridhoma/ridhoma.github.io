@@ -1,9 +1,19 @@
 title: My personal website
 description: A collection of my Markdown articles
 
+baseurl: ""  
+url: "https://ridhoma.github.io"
+
 remote_theme: just-the-docs/just-the-docs
 color_scheme: light
 search_enabled: true
 
-baseurl: ""  
-url: "https://ridhoma.github.io"
+markdown: kramdown
+kramdown:
+  math_engine: mathjax
+
+include:
+  - _includes
+just_the_docs:
+  head_includes:
+    - /_includes/mathjax_head.html
