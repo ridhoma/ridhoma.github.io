@@ -12,14 +12,19 @@ nav_order: 1
 The vanilla A/B test assumes that the treatment is equal for every sample in the same experiment group, called the **Stable Unit Treatment Value Assumption (SUTVA)**. This assumption holds for many A/B test scenarios in digital products (web or app). When you change the color of a button from red to blue, all users in the treatment group will get the same blue, no users who get purple. The treatment is equal for all users being treated.
 
 With SUTVA assumption, the mathematical model of the A/B test becomes fairly simple. For instance, in an A/B test to measure changes in conversion rate (i.e. binary outcome where users either convert or not), we can simply take the difference of conversion rate between control and treatment groups, effectively measuring the **Average Treatment Effect (ATE)**. Let's consider $\rho$ as the conversion rate and the subset index ($0,1$) indicates random group assignment (control, treatment), the ATE is defined as:
+
 $$
 \widehat{ATE} = \rho_1 - \rho_0 
 $$
+
 In a large sample size $n$ and $s >\!\!> 0$, such as in a large scale digital product, the conversion rate $\rho$ can be estimated with $\hat{\rho} = s/n$. Then the uncertainty distribution of ATE can be approximated by,
+
 $$
 \widehat{ATE} \sim \text{Normal}(\hat{\rho}_1 - \hat{\rho}_0, \text{var}(\hat{\rho}_1) + \text{var}(\hat{\rho}_0))
 $$
+
 with the variance $\text{var}(\hat{\rho})$ is defined as ;
+
 $$
 \text{var}(\hat{\rho})=\hat{\rho}(1-\hat{\rho})/n
 $$
