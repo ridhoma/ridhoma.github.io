@@ -1,9 +1,11 @@
-<!-- _layouts/post -->
+<!-- _layouts/default -->
 <!DOCTYPE html>
 <html>
 <head>
     <title>{{ page.title }}</title>
-    <link rel="stylesheet" href="/assets/css/styles.css">
+    {% if page.use_math %}
+        {% include mathjax_support.html %}
+    {% endif %}
 </head>
 <body>
     {% include header.html %}
