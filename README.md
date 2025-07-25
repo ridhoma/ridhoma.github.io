@@ -1,1 +1,1 @@
-Go to [ridhoma.github.io](ridhoma.github.io)
+Go to [ridhoma.github.io](https://ridhoma.github.io/)
