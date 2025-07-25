@@ -44,3 +44,19 @@ The unequal treatment leads to unequal effect. Some search queries weren't affec
 In teh vicinity of HTE, we can no longer rely on $ATE$ as the sole measure of our experiment. For instance, $ATE=0$ (or small) does not necessarily mean the experiment changes nothing. It can be that there are equal samples with negative effect than samples with equally positive effect, resulting to 0 average effect. 
 
 > 💡 _In a search algorithm experiments, identifying the treatment levels and the corresponding effects are required to get non-trivial insights from the experiments._
+
+
+
+$$
+\text{Energy} = J \sum_{i,j} \sigma_i \sigma_j 
+\quad, 
+\sigma \in{\{-1,+1\}}
+\quad,
+J < 0
+$$
+
+hence
+
+$$
+{Energy} = -N(N-2)
+$$
